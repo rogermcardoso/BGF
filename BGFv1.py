@@ -8,7 +8,7 @@ def write2file(linha):
     
 
 # Abertura do arquivo
-file2work = open(r'\Users\rcardoso\Documents\Python Scripts\GarantiaFabril_02052018.csv', 'r')
+file2work = open(r'\Users\rcardoso\Documents\Python Scripts\GarantiaFabril_Exemplo.csv', 'r')
 file2work_reader = csv.reader(file2work , delimiter=';')
 file2work_data = list(file2work_reader)
 
